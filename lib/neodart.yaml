@@ -1,0 +1,183 @@
+# AUTO-GENERATED. DO NOT EDIT. See tool/lints.dart
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+  errors:
+    avoid_dynamic_calls: warning
+
+linter:
+  rules:
+    # https://dart-lang.github.io/linter/lints/avoid_dynamic_calls
+    # Neo-Dart Principle: Do not make dynamic calls
+    - avoid_dynamic_calls
+    # https://dart-lang.github.io/linter/lints/comment_references
+    # Dartdoc comments should either work or not be used
+    - comment_references
+    # https://dart-lang.github.io/linter/lints/no_adjacent_strings_in_list
+    # Common source of subtle bugs
+    - no_adjacent_strings_in_list
+    # https://dart-lang.github.io/linter/lints/always_put_required_named_parameters_first
+    # Consistent style is important
+    - always_put_required_named_parameters_first
+    # https://dart-lang.github.io/linter/lints/avoid_bool_literals_in_conditional_expressions
+    # Usually a misunderstanding of boolean expressions
+    - avoid_bool_literals_in_conditional_expressions
+    # https://dart-lang.github.io/linter/lints/avoid_catches_without_on_clauses
+    # Unconditional try-catch is rarely what you want
+    - avoid_catches_without_on_clauses
+    # https://dart-lang.github.io/linter/lints/avoid_catching_errors
+    # Errors are not intended to be caught in standard programming
+    - avoid_catching_errors
+    # https://dart-lang.github.io/linter/lints/avoid_classes_with_only_static_members
+    # Now with proper enums and extension methods should be rare
+    - avoid_classes_with_only_static_members
+    # https://dart-lang.github.io/linter/lints/avoid_double_and_int_checks
+    # Will behave differently on the web/JS
+    - avoid_double_and_int_checks
+    # https://dart-lang.github.io/linter/lints/avoid_equals_and_hash_code_on_mutable_classes
+    # Common source of subtle bugs as collections do not re-hash
+    - avoid_equals_and_hash_code_on_mutable_classes
+    # https://dart-lang.github.io/linter/lints/avoid_escaping_inner_quotes
+    # Consistent style is important
+    - avoid_escaping_inner_quotes
+    # https://dart-lang.github.io/linter/lints/avoid_field_initializers_in_const_classes
+    # Using an explicit field is limiting compared to a getter
+    - avoid_field_initializers_in_const_classes
+    # https://dart-lang.github.io/linter/lints/avoid_final_parameters
+    # Consistent style is important
+    - avoid_final_parameters
+    # https://dart-lang.github.io/linter/lints/avoid_implementing_value_types
+    # Neo-Dart Principle: Avoid inheritance and mocking
+    - avoid_implementing_value_types
+    # https://dart-lang.github.io/linter/lints/avoid_js_rounded_ints
+    # Will behave differently on the web/JS
+    - avoid_js_rounded_ints
+    # https://dart-lang.github.io/linter/lints/avoid_multiple_declarations_per_line
+    # Consistent style is important
+    - avoid_multiple_declarations_per_line
+    # https://dart-lang.github.io/linter/lints/avoid_positional_boolean_parameters
+    # Usually the sign of a confusing API
+    - avoid_positional_boolean_parameters
+    # https://dart-lang.github.io/linter/lints/avoid_private_typedef_functions
+    # Better served by a function type
+    - avoid_private_typedef_functions
+    # https://dart-lang.github.io/linter/lints/avoid_redundant_argument_values
+    # Consistent style is important
+    - avoid_redundant_argument_values
+    # https://dart-lang.github.io/linter/lints/avoid_renaming_method_parameters
+    # Consistent style is important
+    - avoid_renaming_method_parameters
+    # https://dart-lang.github.io/linter/lints/avoid_setters_without_getters
+    # Consistent style is important
+    - avoid_setters_without_getters
+    # https://dart-lang.github.io/linter/lints/avoid_types_on_closure_parameters
+    # Consistent style is important
+    - avoid_types_on_closure_parameters
+    # https://dart-lang.github.io/linter/lints/avoid_unused_constructor_parameters
+    # YAGNI
+    - avoid_unused_constructor_parameters
+    # https://dart-lang.github.io/linter/lints/cascade_invocations
+    # Consistent style is important
+    - cascade_invocations
+    # https://dart-lang.github.io/linter/lints/cast_nullable_to_non_nullable
+    # Common source of subtle bugs
+    - cast_nullable_to_non_nullable
+    # https://dart-lang.github.io/linter/lints/conditional_uri_does_not_exist
+    # Avoids clear mistakes
+    - conditional_uri_does_not_exist
+    # https://dart-lang.github.io/linter/lints/deprecated_consistency
+    # Consistent style is important
+    - deprecated_consistency
+    # https://dart-lang.github.io/linter/lints/directives_ordering
+    # Consistent style is important
+    - directives_ordering
+    # https://dart-lang.github.io/linter/lints/do_not_use_environment
+    # Confusing and error-prone
+    - do_not_use_environment
+    # https://dart-lang.github.io/linter/lints/noop_primitive_operations
+    # Avoids clear mistakes
+    - noop_primitive_operations
+    # https://dart-lang.github.io/linter/lints/omit_local_variable_types
+    # Consistent style is important
+    - omit_local_variable_types
+    # https://dart-lang.github.io/linter/lints/only_throw_errors
+    # Consistent style is important
+    - only_throw_errors
+    # https://dart-lang.github.io/linter/lints/package_api_docs
+    # Consistent style is important
+    - package_api_docs
+    # https://dart-lang.github.io/linter/lints/parameter_assignments
+    # Consistent style is important
+    - parameter_assignments
+    # https://dart-lang.github.io/linter/lints/prefer_asserts_with_message
+    # Consistent style is important
+    - prefer_asserts_with_message
+    # https://dart-lang.github.io/linter/lints/prefer_const_constructors
+    # Consistent style is important
+    - prefer_const_constructors
+    # https://dart-lang.github.io/linter/lints/prefer_const_constructors_in_immutables
+    # Consistent style is important
+    - prefer_const_constructors_in_immutables
+    # https://dart-lang.github.io/linter/lints/prefer_const_declarations
+    # Consistent style is important
+    - prefer_const_declarations
+    # https://dart-lang.github.io/linter/lints/prefer_const_literals_to_create_immutables
+    # Consistent style is important
+    - prefer_const_literals_to_create_immutables
+    # https://dart-lang.github.io/linter/lints/prefer_final_fields
+    # Consistent style is important
+    - prefer_final_fields
+    # https://dart-lang.github.io/linter/lints/prefer_final_in_for_each
+    # Consistent style is important
+    - prefer_final_in_for_each
+    # https://dart-lang.github.io/linter/lints/prefer_final_locals
+    # Consistent style is important
+    - prefer_final_locals
+    # https://dart-lang.github.io/linter/lints/prefer_generic_function_type_aliases
+    # Consistent style is important
+    - prefer_generic_function_type_aliases
+    # https://dart-lang.github.io/linter/lints/prefer_mixin
+    # Consistent style is important
+    - prefer_mixin
+    # https://dart-lang.github.io/linter/lints/prefer_single_quotes
+    # Consistent style is important
+    - prefer_single_quotes
+    # https://dart-lang.github.io/linter/lints/public_member_api_docs
+    # Consistent style is important
+    - public_member_api_docs
+    # https://dart-lang.github.io/linter/lints/unawaited_futures
+    # Avoids clear mistakes
+    - unawaited_futures
+    # https://dart-lang.github.io/linter/lints/unnecessary_await_in_return
+    # No effect
+    - unnecessary_await_in_return
+    # https://dart-lang.github.io/linter/lints/unnecessary_lambdas
+    # No effect
+    - unnecessary_lambdas
+    # https://dart-lang.github.io/linter/lints/unnecessary_overrides
+    # No effect
+    - unnecessary_overrides
+    # https://dart-lang.github.io/linter/lints/unnecessary_parenthesis
+    # No effect
+    - unnecessary_parenthesis
+    # https://dart-lang.github.io/linter/lints/unnecessary_raw_strings
+    # No effect
+    - unnecessary_raw_strings
+    # https://dart-lang.github.io/linter/lints/use_enums
+    # Consistent style is important
+    - use_enums
+    # https://dart-lang.github.io/linter/lints/use_named_constants
+    # Consistent style is important
+    - use_named_constants
+    # https://dart-lang.github.io/linter/lints/use_late_for_private_fields_and_variables
+    # Consistent style is important
+    - use_late_for_private_fields_and_variables
+    # https://dart-lang.github.io/linter/lints/secure_pubspec_urls
+    # Security is important
+    - secure_pubspec_urls
+    # https://dart-lang.github.io/linter/lints/sort_pub_dependencies
+    # Consistent style is important
+    - sort_pub_dependencies
