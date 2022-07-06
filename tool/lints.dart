@@ -23,6 +23,8 @@ void main(List<String> args) {
 
   write('# AUTO-GENERATED. DO NOT EDIT. See tool/lints.dart');
   write('');
+  write('include: package:lints/recommended.yaml');
+  write('');
 
   write('analyzer:');
 

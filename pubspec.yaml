@@ -1,6 +1,6 @@
 name: neodart
 description: Extensions and principles for modern Dart development.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/neo-dart/neodart
 
 environment:
