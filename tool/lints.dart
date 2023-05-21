@@ -178,12 +178,28 @@ const _lints = [
     reason: 'Common source of subtle bugs',
   ),
   _Lint(
+    name: 'collection_methods_unrelated_type',
+    reason: 'Avoids clear mistakes',
+  ),
+  _Lint(
+    name: 'combinators_ordering',
+    reason: _consistentStyleIsImportant,
+  ),
+  _Lint(
     name: 'conditional_uri_does_not_exist',
+    reason: 'Avoids clear mistakes',
+  ),
+  _Lint(
+    name: 'dangling_library_doc_comments',
     reason: 'Avoids clear mistakes',
   ),
   _Lint(
     name: 'deprecated_consistency',
     reason: _consistentStyleIsImportant,
+  ),
+  _Lint(
+    name: 'discarded_futures',
+    reason: 'Avoids clear mistakes',
   ),
   _Lint(
     name: 'directives_ordering',
@@ -192,6 +208,22 @@ const _lints = [
   _Lint(
     name: 'do_not_use_environment',
     reason: 'Confusing and error-prone',
+  ),
+  _Lint(
+    name: 'implicit_call_tearoffs',
+    reason: _consistentStyleIsImportant,
+  ),
+  _Lint(
+    name: 'implicit_reopen',
+    reason: 'Avoids clear mistakes',
+  ),
+  _Lint(
+    name: 'invalid_case_patterns',
+    reason: 'Avoids clear mistakes',
+  ),
+  _Lint(
+    name: 'library_annotations',
+    reason: _consistentStyleIsImportant,
   ),
   _Lint(
     name: 'noop_primitive_operations',
@@ -262,6 +294,10 @@ const _lints = [
     reason: _consistentStyleIsImportant,
   ),
   _Lint(
+    name: 'type_literal_in_constant_pattern',
+    reason: 'Avoids clear mistakes',
+  ),
+  _Lint(
     name: 'unawaited_futures',
     reason: 'Avoids clear mistakes',
   ),
@@ -270,7 +306,15 @@ const _lints = [
     reason: 'No effect',
   ),
   _Lint(
+    name: 'unnecessary_breaks',
+    reason: 'No effect',
+  ),
+  _Lint(
     name: 'unnecessary_lambdas',
+    reason: 'No effect',
+  ),
+  _Lint(
+    name: 'unnecessary_library_directive',
     reason: 'No effect',
   ),
   _Lint(
@@ -286,11 +330,27 @@ const _lints = [
     reason: 'No effect',
   ),
   _Lint(
+    name: 'unnecessary_to_list_in_spreads',
+    reason: 'No effect',
+  ),
+  _Lint(
+    name: 'unreachable_from_main',
+    reason: 'No effect',
+  ),
+  _Lint(
     name: 'use_enums',
     reason: _consistentStyleIsImportant,
   ),
   _Lint(
     name: 'use_named_constants',
+    reason: _consistentStyleIsImportant,
+  ),
+  _Lint(
+    name: 'use_string_in_part_of_directives',
+    reason: _consistentStyleIsImportant,
+  ),
+  _Lint(
+    name: 'use_super_parameters',
     reason: _consistentStyleIsImportant,
   ),
   _Lint(

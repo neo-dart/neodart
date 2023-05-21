@@ -87,18 +87,42 @@ linter:
     # https://dart-lang.github.io/linter/lints/cast_nullable_to_non_nullable
     # Common source of subtle bugs
     - cast_nullable_to_non_nullable
+    # https://dart-lang.github.io/linter/lints/collection_methods_unrelated_type
+    # Avoids clear mistakes
+    - collection_methods_unrelated_type
+    # https://dart-lang.github.io/linter/lints/combinators_ordering
+    # Consistent style is important
+    - combinators_ordering
     # https://dart-lang.github.io/linter/lints/conditional_uri_does_not_exist
     # Avoids clear mistakes
     - conditional_uri_does_not_exist
+    # https://dart-lang.github.io/linter/lints/dangling_library_doc_comments
+    # Avoids clear mistakes
+    - dangling_library_doc_comments
     # https://dart-lang.github.io/linter/lints/deprecated_consistency
     # Consistent style is important
     - deprecated_consistency
+    # https://dart-lang.github.io/linter/lints/discarded_futures
+    # Avoids clear mistakes
+    - discarded_futures
     # https://dart-lang.github.io/linter/lints/directives_ordering
     # Consistent style is important
     - directives_ordering
     # https://dart-lang.github.io/linter/lints/do_not_use_environment
     # Confusing and error-prone
     - do_not_use_environment
+    # https://dart-lang.github.io/linter/lints/implicit_call_tearoffs
+    # Consistent style is important
+    - implicit_call_tearoffs
+    # https://dart-lang.github.io/linter/lints/implicit_reopen
+    # Avoids clear mistakes
+    - implicit_reopen
+    # https://dart-lang.github.io/linter/lints/invalid_case_patterns
+    # Avoids clear mistakes
+    - invalid_case_patterns
+    # https://dart-lang.github.io/linter/lints/library_annotations
+    # Consistent style is important
+    - library_annotations
     # https://dart-lang.github.io/linter/lints/noop_primitive_operations
     # Avoids clear mistakes
     - noop_primitive_operations
@@ -150,15 +174,24 @@ linter:
     # https://dart-lang.github.io/linter/lints/public_member_api_docs
     # Consistent style is important
     - public_member_api_docs
+    # https://dart-lang.github.io/linter/lints/type_literal_in_constant_pattern
+    # Avoids clear mistakes
+    - type_literal_in_constant_pattern
     # https://dart-lang.github.io/linter/lints/unawaited_futures
     # Avoids clear mistakes
     - unawaited_futures
     # https://dart-lang.github.io/linter/lints/unnecessary_await_in_return
     # No effect
     - unnecessary_await_in_return
+    # https://dart-lang.github.io/linter/lints/unnecessary_breaks
+    # No effect
+    - unnecessary_breaks
     # https://dart-lang.github.io/linter/lints/unnecessary_lambdas
     # No effect
     - unnecessary_lambdas
+    # https://dart-lang.github.io/linter/lints/unnecessary_library_directive
+    # No effect
+    - unnecessary_library_directive
     # https://dart-lang.github.io/linter/lints/unnecessary_overrides
     # No effect
     - unnecessary_overrides
@@ -168,12 +201,24 @@ linter:
     # https://dart-lang.github.io/linter/lints/unnecessary_raw_strings
     # No effect
     - unnecessary_raw_strings
+    # https://dart-lang.github.io/linter/lints/unnecessary_to_list_in_spreads
+    # No effect
+    - unnecessary_to_list_in_spreads
+    # https://dart-lang.github.io/linter/lints/unreachable_from_main
+    # No effect
+    - unreachable_from_main
     # https://dart-lang.github.io/linter/lints/use_enums
     # Consistent style is important
     - use_enums
     # https://dart-lang.github.io/linter/lints/use_named_constants
     # Consistent style is important
     - use_named_constants
+    # https://dart-lang.github.io/linter/lints/use_string_in_part_of_directives
+    # Consistent style is important
+    - use_string_in_part_of_directives
+    # https://dart-lang.github.io/linter/lints/use_super_parameters
+    # Consistent style is important
+    - use_super_parameters
     # https://dart-lang.github.io/linter/lints/use_late_for_private_fields_and_variables
     # Consistent style is important
     - use_late_for_private_fields_and_variables
